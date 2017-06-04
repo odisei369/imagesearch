@@ -1,0 +1,20 @@
+{
+  "name": "imagesearch",
+  "version": "0.0.1",
+  "description": "image search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilya Piatrenka",
+  "license": "ISC",
+  "engines": {
+    "node": "8.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "google-images": "^2.1.0"
+  }
+}
